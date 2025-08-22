@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 const projects = [
 
@@ -120,6 +121,8 @@ const projects = [
 ];
 
 export default function App() {
+    const [modalImage, setModalImage] = useState(null);
+
   return (
     <div className="bg-gray-950 text-white font-sans scroll-smooth">
       {/* Header */}
@@ -151,7 +154,7 @@ export default function App() {
 
         {/* Texto */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-snug">
-          Olá, eu sou <span className="text-blue-500">Leonardo Cruzeiro</span>
+          Olá, eu sou <span className="text-blue-500"><br />Leonardo</span>
         </h1>
          <img
             src="/leo.jpeg"
@@ -231,15 +234,17 @@ export default function App() {
 
 
       {/* Projetos */}
+      {/* Projetos */}
       <section id="projects" className="min-h-[80vh] px-6 py-16 max-w-6xl mx-auto">
-        <h3 className="text-3xl font-bold mb-8 text-center">Projetos</h3>
+        <h3 className="text-3xl font-bold mb-12 text-center">Projetos</h3>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((proj, i) => (
             <motion.article
               key={i}
-              whileHover={{ scale: 1.03 }}
-              className="rounded-2xl border border-gray-800 p-5 bg-gray-900/60 backdrop-blur-xl shadow-xl"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 200, damping: 12 }}
+              className="rounded-2xl border border-gray-800 p-5 bg-gray-900/60 backdrop-blur-xl shadow-xl cursor-pointer"
             >
               {/* Media */}
               {proj.media?.type === "youtube" ? (
@@ -250,10 +255,15 @@ export default function App() {
                     title={proj.title}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
-                  ></iframe>
+                  />
                 </div>
               ) : proj.media?.type === "image" ? (
-                <img src={proj.media.url} alt={proj.title} className="h-48 w-full object-cover rounded-xl mb-4" />
+                <img
+                  src={proj.media.url}
+                  alt={proj.title}
+                  className="h-48 w-full object-cover rounded-xl mb-4 hover:scale-105 transition-transform duration-300"
+                  onClick={() => setModalImage(proj.media.url)}
+                />
               ) : null}
 
               {/* Conteúdo */}
@@ -275,6 +285,28 @@ export default function App() {
           ))}
         </div>
       </section>
+
+      {/* Modal de Imagem */}
+      <AnimatePresence>
+        {modalImage && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black/80 flex justify-center items-center z-50"
+            onClick={() => setModalImage(null)}
+          >
+            <motion.img
+              initial={{ scale: 0.8 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0.8 }}
+              src={modalImage}
+              alt="Visualização do projeto"
+              className="max-h-[90vh] max-w-[90vw] rounded-xl shadow-2xl"
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
 
 
       {/* Contato */}
