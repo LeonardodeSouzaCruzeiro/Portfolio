@@ -9,7 +9,7 @@ const projects = [
     company: "Arquivos Doc",
     period: "ago 2025",
     description:
-      "ste sistema integra gestão documental corporativa com um canal de atendimento inteligente baseado em chatbot, proporcionando eficiência no gerenciamento e consulta de acervos de clientes.",
+      "Sistema integra gestão documental corporativa com um canal de atendimento inteligente baseado em chatbot, proporcionando eficiência no gerenciamento e consulta de acervos de clientes.",
     skills: ["Symfony","React", "API REST", "TailwindCSS", "Jwt","Machine Learning","Metodologias ágeis","MySql"],
     media: { type: "youtube", url: "https://www.youtube.com/watch?v=WkM_pWYvQu0" },
 
@@ -21,7 +21,7 @@ const projects = [
     company: "Tropa Digital",
     period: "jul 2025",
     description:
-      "desafio técnico proposto pela Tropa Digital, desenvolvida com foco em performance, organização e atenção aos detalhes de layout e responsividade..",
+      "Desafio técnico proposto pela Tropa Digital, desenvolvida com foco em performance, organização e atenção aos detalhes de layout e responsividade.",
     skills: ["Node","React", "Vite", "TailwindCSS", "Metodologias ágeis", "Figma"],
     media: { type: "youtube", url: "https://www.youtube.com/watch?v=5YvUCG_losU" },
 
@@ -198,10 +198,10 @@ export default function App() {
         className="bg-gray-900/60 backdrop-blur-md p-4 rounded-2xl border border-gray-800"
       >
         <h3 className="text-xl sm:text-2xl font-semibold mb-2">Competências mais praticadas</h3>
-        <p className="text-gray-300 text-sm sm:text-base">Symfony • React • Python • API REST • TailwindCSS • Javascript • Amazon S3 • Machine Learning • Metodologias Ágeis • MySql</p>
+        <p className="text-gray-300 text-sm sm:text-base">Symfony • Django • React • Python • API REST • TailwindCSS • Javascript • Amazon S3 • Machine Learning • Metodologias Ágeis • MySql</p>
 
         <h3 className="text-xl sm:text-2xl font-semibold mt-4 mb-2">Outras Competências</h3>
-        <p className="text-gray-300 text-sm sm:text-base">Django • Node.js • Vue.js • Laravel •  Flask API • PostgreSQL • MongoDB • HTML5 • CSS</p>
+        <p className="text-gray-300 text-sm sm:text-base"> Node.js • Vue.js • Laravel •  Flask API • PostgreSQL • MongoDB • HTML5 • CSS</p>
 
         <p className="text-gray-400 italic mt-4 text-sm sm:text-base">
           Adapto-me rapidamente a novas linguagens e tecnologias, buscando soluções eficientes.
