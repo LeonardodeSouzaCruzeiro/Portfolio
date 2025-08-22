@@ -140,14 +140,26 @@ export default function App() {
 
     {/* Hero */}
     <div className="text-center md:text-left flex flex-col justify-center">
-      <motion.h1
+      <motion.div
         initial={{ y: -40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7 }}
-        className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-2 leading-snug max-w-xl"
+        className="flex items-center justify-center gap-4 mb-2"
       >
-        Olá, eu sou <span className="text-blue-500">Leonardo</span>
-      </motion.h1>
+        {/* Foto circular */}
+       
+
+        {/* Texto */}
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-snug">
+          Olá, eu sou <span className="text-blue-500">Leonardo Cruzeiro</span>
+        </h1>
+         <img
+            src="/leo.jpeg"
+            alt="Leonardo"
+            className="w-20 sm:w-24 md:w-28 h-20 sm:h-24 md:h-28 rounded-full object-cover border-2 border-blue-500"
+          />
+
+      </motion.div>
 
       <motion.p
         initial={{ opacity: 0 }}
