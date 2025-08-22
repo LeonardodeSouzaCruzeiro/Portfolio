@@ -198,7 +198,7 @@ export default function App() {
         className="bg-gray-900/60 backdrop-blur-md p-4 rounded-2xl border border-gray-800"
       >
         <h3 className="text-xl sm:text-2xl font-semibold mb-2">Competências mais praticadas</h3>
-        <p className="text-gray-300 text-sm sm:text-base">Symfony • Django • React • Python • API REST • TailwindCSS • Javascript • Amazon S3 • Machine Learning • Metodologias Ágeis • MySql</p>
+        <p className="text-gray-300 text-sm sm:text-base">Symfony • Django • React • Python • API REST • TailwindCSS • Javascript • Amazon S3 • Machine Learning • Metodologias Ágeis • MySql • Git</p>
 
         <h3 className="text-xl sm:text-2xl font-semibold mt-4 mb-2">Outras Competências</h3>
         <p className="text-gray-300 text-sm sm:text-base"> Node.js • Vue.js • Laravel •  Flask API • PostgreSQL • MongoDB • HTML5 • CSS</p>
