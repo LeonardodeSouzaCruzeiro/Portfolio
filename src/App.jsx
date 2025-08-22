@@ -10,7 +10,7 @@ const projects = [
     period: "ago 2025",
     description:
       "ste sistema integra gestão documental corporativa com um canal de atendimento inteligente baseado em chatbot, proporcionando eficiência no gerenciamento e consulta de acervos de clientes.",
-    skills: ["Symfony","React", "API REST", "Tailwind", "Jwt","Machine Learning","Metodologias ágeis"],
+    skills: ["Symfony","React", "API REST", "Tailwind", "Jwt","Machine Learning","Metodologias ágeis","MySql"],
     media: { type: "youtube", url: "https://www.youtube.com/watch?v=WkM_pWYvQu0" },
 
   },
@@ -33,7 +33,7 @@ const projects = [
     period: "mai 2025 - jun 2025",
     description:
       "Módulo de Reconhecimento Facial para registro de ponto automatizado, seguro e em múltiplos dispositivos.",
-    skills: ["Symfony", "Python", "Flask", "React", "Metodologias ágeis"],
+    skills: ["Symfony", "Python", "Flask", "React", "Metodologias ágeis","MySql"],
     media: { type: "youtube", url: "https://www.youtube.com/watch?v=-wyXwnRMobs" },
 
   },
@@ -44,7 +44,7 @@ const projects = [
     period: "fev 2025 - abr 2025",
     description:
       "Fluxo 100% digital e seguro para integração de novos colaboradores, com validade jurídica ICP-Brasil.",
-    skills: ["Symfony", "Mercure", "Amazon S3", "React","Machine Learning", "Metodologias ágeis"],
+    skills: ["Symfony", "Mercure", "Amazon S3", "React","Machine Learning", "Metodologias ágeis","MySql"],
     media: { type: "youtube", url: "https://www.youtube.com/watch?v=HlwCgIMgm9Q" },
   },
   {
@@ -64,7 +64,7 @@ const projects = [
     period: "jan 2024 - set 2024",
     description:
       "Controle físico e digital de documentos e caixas com QR Code, facilitando busca e rastreabilidade.",
-    skills: ["API REST", "Twig", "JavaScript", "Symfony", "Amazon S3", "Metodologias ágeis"],
+    skills: ["API REST", "Twig", "JavaScript", "Symfony", "Amazon S3", "Metodologias ágeis","MySql"],
     media: { type: "image", url: "/log.png" },
   },
   {
@@ -74,7 +74,7 @@ const projects = [
     period: "jan 2024 - mai 2024",
     description:
       "Cadastro automatizado de caixas com OCR e leitura de QR Code, integrando físico e digital.",
-    skills: ["Python", "OpenCV", "Pygame", "Tesseract", "Metodologias ágeis"],
+    skills: ["Python", "OpenCV", "Pygame", "Tesseract", "Metodologias ágeis","MySql"],
     media: { type: "image", url: "/scan.png" },
   },
   {
@@ -94,7 +94,7 @@ const projects = [
     period: "jan 2022 - jul 2023",
     description:
       "Sistema oficial da ArquivosDoc que centraliza gestão de documentos e produtividade de colaboradores.",
-    skills: ["API REST", "Twig", "JavaScript", "Symfony", "Amazon S3", "Metodologias ágeis"],
+    skills: ["API REST", "Twig", "JavaScript", "Symfony", "Amazon S3", "Metodologias ágeis","MySql"],
     media: { type: "image", url: "/produtive.png" },
   },
   {
@@ -104,7 +104,7 @@ const projects = [
     period: "jan 2020 - jan 2021",
     description:
       "Sistema de chamada estudantil inteligente baseado em reconhecimento facial para automação de presença.",
-    skills: ["OpenCV", "Dlib", "JavaScript", "Django", "Python"],
+    skills: ["OpenCV", "Dlib", "JavaScript", "Django", "Python","PostgreSQL"],
     media: { type: "image", url: "/app.png" },
   },
 
@@ -198,10 +198,10 @@ export default function App() {
         className="bg-gray-900/60 backdrop-blur-md p-4 rounded-2xl border border-gray-800"
       >
         <h3 className="text-xl sm:text-2xl font-semibold mb-2">Competências mais praticadas</h3>
-        <p className="text-gray-300 text-sm sm:text-base">Symfony • React • Python • API REST • Amazon S3 • Machine Learning • Metodologias Ágeis</p>
+        <p className="text-gray-300 text-sm sm:text-base">Symfony • React • Python • API REST • Javascript • Amazon S3 • Machine Learning • Metodologias Ágeis • MySql</p>
 
         <h3 className="text-xl sm:text-2xl font-semibold mt-4 mb-2">Outras Competências</h3>
-        <p className="text-gray-300 text-sm sm:text-base">Node.js • Vue.js • Laravel • Django • Flask API</p>
+        <p className="text-gray-300 text-sm sm:text-base">Node.js • Vue.js • Laravel • Django • Flask API • PostgreSQL • MongoDB</p>
 
         <p className="text-gray-400 italic mt-4 text-sm sm:text-base">
           Adapto-me rapidamente a novas linguagens e tecnologias, buscando soluções eficientes.
