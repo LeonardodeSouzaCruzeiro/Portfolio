@@ -170,7 +170,7 @@ export default function App() {
         transition={{ delay: 0.2, duration: 0.8 }}
         className="text-gray-400 italic mb-4 text-sm sm:text-base md:text-lg leading-relaxed max-w-xl"
       >
-        Desenvolvedor Full Stack e Engenheiro de Software com sólida experiência em projetos autonomos e complexos para gestão documental, automação de processos e integração com serviços públicos. Atuo em todas as etapas — da arquitetura à entrega e manutenção — aplicando metodologias ágeis, ferramentas modernas e boas práticas de engenharia de software. Tenho experiência no cumprimento de requisitos legais e arquivísticos, como e-Arq Brasil e ICP-Brasil, e invisto continuamente em estudos e pesquisas tecnológicas para aprimorar soluções e impulsionar a inovação.
+        Desenvolvedor Full Stack e Engenheiro de Software pleno, com sólida experiência em projetos autônomos e complexos para gestão documental, automação de processos e integração com serviços públicos. Atuo em todas as etapas — da arquitetura à entrega e manutenção — aplicando metodologias ágeis, ferramentas modernas e boas práticas de engenharia de software. Tenho experiência no cumprimento de requisitos legais e arquivísticos, como e-Arq Brasil e ICP-Brasil, e invisto continuamente em estudos e pesquisas tecnológicas para aprimorar soluções e otimizar processos
       </motion.p>
 
       <motion.div
@@ -198,7 +198,7 @@ export default function App() {
         className="bg-gray-900/60 backdrop-blur-md p-4 rounded-2xl border border-gray-800"
       >
         <h3 className="text-xl sm:text-2xl font-semibold mb-2">Competências mais praticadas</h3>
-        <p className="text-gray-300 text-sm sm:text-base">Symfony • Django • React • Python • API REST • TailwindCSS • Javascript • Amazon S3 • Machine Learning • Metodologias Ágeis • MySql • Git</p>
+        <p className="text-gray-300 text-sm sm:text-base">• Python • Symfony • Django • React  • API REST • TailwindCSS • Javascript • Amazon S3 • Machine Learning • Metodologias Ágeis • MySql • Git</p>
 
         <h3 className="text-xl sm:text-2xl font-semibold mt-4 mb-2">Outras Competências</h3>
         <p className="text-gray-300 text-sm sm:text-base"> Node.js • Vue.js • Laravel •  Flask API • PostgreSQL • MongoDB • HTML5 • CSS</p>
