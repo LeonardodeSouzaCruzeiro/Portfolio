@@ -7,11 +7,11 @@ const projects = [
     title: "Sistema de Atendimento Documental com Chatbot",
     link:"",
     company: "Arquivos Doc",
-    period: "ago 2025",
+    period: "Em Desenvolvimento",
     description:
       "Sistema integra gestão documental corporativa com um canal de atendimento inteligente baseado em chatbot, proporcionando eficiência no gerenciamento e consulta de acervos de clientes.",
     skills: ["Symfony","React", "API REST", "TailwindCSS", "Jwt","Machine Learning","Metodologias ágeis","MySql"],
-    media: { type: "youtube", url: "https://www.youtube.com/watch?v=WkM_pWYvQu0" },
+    media: { type: "youtube", url: "https://www.youtube.com/watch?v=GZyfBvqCgfk" },
 
   },
 
@@ -33,7 +33,7 @@ const projects = [
     period: "mai 2025 - jun 2025",
     description:
       "Módulo de Reconhecimento Facial para registro de ponto automatizado, seguro e em múltiplos dispositivos.",
-    skills: ["Symfony", "Python", "Flask", "React", "Metodologias ágeis","MySql"],
+    skills: ["Symfony", "Python", "Flask", "JavaScript", "Metodologias ágeis","MySql"],
     media: { type: "youtube", url: "https://www.youtube.com/watch?v=-wyXwnRMobs" },
 
   },
@@ -54,7 +54,7 @@ const projects = [
     period: "nov 2024 - jan 2025",
     description:
       "Ferramenta para criação, edição e exportação de normas jurídicas, com controle de versões e padronização.",
-    skills: ["Symfony", "Amazon S3", "API REST", "React", "Metodologias ágeis"],
+    skills: ["Symfony", "Amazon S3", "API REST", "JavaScript", "Metodologias ágeis"],
     media: { type: "youtube", url: "https://www.youtube.com/watch?v=liYnX7QsXaY" },
   },
   {
@@ -74,8 +74,8 @@ const projects = [
     period: "jan 2024 - mai 2024",
     description:
       "Cadastro automatizado de caixas com OCR e leitura de QR Code, integrando físico e digital.",
-    skills: ["Python", "OpenCV", "Pygame", "Tesseract", "Metodologias ágeis","MySql"],
-    media: { type: "image", url: "/scan.png" },
+    skills: ["Python", "OpenCV", "Tkinter", "Tesseract", "Metodologias ágeis","MySql"],
+    media: { type: "youtube", url: "https://www.youtube.com/watch?v=VddBNJEJ-II" },
   },
   {
     title: "IndexDoc",
