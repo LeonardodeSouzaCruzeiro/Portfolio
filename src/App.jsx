@@ -16,12 +16,12 @@ const projects = [
   },
 
   {
-    title: "Tropa Digital",
+    title: "Freelance FrontEnd",
     link:"https://tropa-digital-mzkq.vercel.app/",
     company: "Tropa Digital",
     period: "jul 2025",
     description:
-      "Desafio técnico proposto pela Tropa Digital, desenvolvida com foco em performance, organização e atenção aos detalhes de layout e responsividade.",
+      "Página de login e painel administrativo, desenvolvida com foco em performance, organização e atenção aos detalhes de layout e responsividade.",
     skills: ["Node","React", "Vite", "TailwindCSS", "Metodologias ágeis", "Figma"],
     media: { type: "youtube", url: "https://www.youtube.com/watch?v=5YvUCG_losU" },
 
@@ -53,7 +53,7 @@ const projects = [
     company: "Arquivos Doc",
     period: "nov 2024 - jan 2025",
     description:
-      "Ferramenta para criação, edição e exportação de normas jurídicas, com controle de versões e padronização.",
+      "Ferramenta para criação, edição e exportação de normas jurídicas para prefeitura de Campos do Jordão, com controle de versões e padronização.",
     skills: ["Symfony", "Amazon S3", "API REST", "JavaScript", "Metodologias ágeis"],
     media: { type: "youtube", url: "https://www.youtube.com/watch?v=liYnX7QsXaY" },
   },
@@ -170,7 +170,7 @@ export default function App() {
         transition={{ delay: 0.2, duration: 0.8 }}
         className="text-gray-400 italic mb-4 text-sm sm:text-base md:text-lg leading-relaxed max-w-xl"
       >
-        Desenvolvedor Full Stack e Engenheiro de Software pleno, com sólida experiência em projetos autônomos e complexos para gestão documental, automação de processos e integração com serviços públicos. Atuo em todas as etapas — da arquitetura à entrega e manutenção — aplicando metodologias ágeis, ferramentas modernas e boas práticas de engenharia de software. Tenho experiência no cumprimento de requisitos legais e arquivísticos, como e-Arq Brasil e ICP-Brasil, e invisto continuamente em estudos e pesquisas tecnológicas para aprimorar soluções e otimizar processos
+        Desenvolvedor Full Stack e Engenheiro de Software pleno, com experiência em projetos autônomos e complexos para gestão documental, automação de processos e integração com APIs. Atuo em todas as etapas — da arquitetura à entrega e manutenção — aplicando metodologias ágeis, ferramentas modernas e boas práticas de engenharia de software. Tenho experiência no cumprimento de requisitos legais e arquivísticos, como e-Arq Brasil e ICP-Brasil, e invisto continuamente em estudos e pesquisas tecnológicas para aprimorar soluções e otimizar processos.
       </motion.p>
 
       <motion.div
