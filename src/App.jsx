@@ -4,50 +4,82 @@ import Tilt from "react-parallax-tilt";
 const projects = [
 
     {
-    title: "Sistema de Atendimento Documental com Chatbot",
-    link:"",
-    company: "Arquivos Doc",
-    period: "Em Desenvolvimento",
-    description:
-      "Sistema integra gestão documental corporativa com um canal de atendimento inteligente baseado em chatbot, proporcionando eficiência no gerenciamento e consulta de acervos de clientes.",
-    skills: ["Symfony","React", "API REST", "TailwindCSS", "Jwt","Machine Learning","Metodologias ágeis","MySql"],
-    media: { type: "youtube", url: "https://www.youtube.com/watch?v=GZyfBvqCgfk" },
+      title: "Sistema de Atendimento Documental com Chatbot",
+      link:"",
+      company: "Arquivos Doc",
+      period: "Em Desenvolvimento",
+      description:
+        "Sistema integra gestão documental corporativa com um canal de atendimento inteligente baseado em chatbot, proporcionando eficiência no gerenciamento e consulta de acervos de clientes.",
+      skills: ["Symfony","React", "API REST", "TailwindCSS", "Jwt","Machine Learning","Metodologias ágeis","MySql"],
+      media: { type: "youtube", url: "https://www.youtube.com/watch?v=GZyfBvqCgfk" },
 
-  },
+    },
+    {
+      title: "Sistema de Ponto com Reconhecimento Facial",
+      link:"",
+      company: "ProdutiveDoc / Arquivos Doc",
+      period: "mai 2025 - jun 2025",
+      description:
+        "Módulo de Reconhecimento Facial para registro de ponto automatizado, seguro e em múltiplos dispositivos.",
+      skills: ["Symfony", "Python", "Flask", "JavaScript", "Metodologias ágeis","MySql"],
+      media: { type: "youtube", url: "https://www.youtube.com/watch?v=-wyXwnRMobs" },
 
-  {
-    title: "Freelance FrontEnd",
-    link:"https://tropa-digital-mzkq.vercel.app/",
-    company: "Tropa Digital",
-    period: "jul 2025",
-    description:
-      "Página de login e painel administrativo, desenvolvida com foco em performance, organização e atenção aos detalhes de layout e responsividade.",
-    skills: ["Node","React", "Vite", "TailwindCSS", "Metodologias ágeis", "Figma"],
-    media: { type: "youtube", url: "https://www.youtube.com/watch?v=5YvUCG_losU" },
+    },
+    {
+      title: "Integração Digital – ProdutiveDoc",
+      link:"",
+      company: "Arquivos Doc",
+      period: "fev 2025 - abr 2025",
+      description:
+        "Fluxo 100% digital e seguro para integração de novos colaboradores, com validade jurídica ICP-Brasil.",
+      skills: ["Symfony", "Mercure", "Amazon S3", "React","Machine Learning", "Metodologias ágeis","MySql"],
+      media: { type: "youtube", url: "https://www.youtube.com/watch?v=HlwCgIMgm9Q" },
+    },
 
-  },
-  {
-    title: "Sistema de Ponto com Reconhecimento Facial",
-    link:"",
-    company: "ProdutiveDoc / Arquivos Doc",
-    period: "mai 2025 - jun 2025",
-    description:
-      "Módulo de Reconhecimento Facial para registro de ponto automatizado, seguro e em múltiplos dispositivos.",
-    skills: ["Symfony", "Python", "Flask", "JavaScript", "Metodologias ágeis","MySql"],
-    media: { type: "youtube", url: "https://www.youtube.com/watch?v=-wyXwnRMobs" },
 
-  },
-  {
-    title: "Integração Digital – ProdutiveDoc",
-    link:"",
-    company: "Arquivos Doc",
-    period: "fev 2025 - abr 2025",
-    description:
-      "Fluxo 100% digital e seguro para integração de novos colaboradores, com validade jurídica ICP-Brasil.",
-    skills: ["Symfony", "Mercure", "Amazon S3", "React","Machine Learning", "Metodologias ágeis","MySql"],
-    media: { type: "youtube", url: "https://www.youtube.com/watch?v=HlwCgIMgm9Q" },
-  },
-  {
+    {
+      title: "IndexDoc",
+      link:"https://index.arquivosdoc.com.br/login",
+      company: "PUC Minas",
+      period: "ago 2023 - dez 2023",
+      description:
+        "Plataforma de automação documental para otimizar digitalização e Assinatura Digital ICP-Brasil de arquivos.",
+      skills: ["API REST", "CSS", "Twig", "JavaScript", "Symfony", "Amazon S3", "MySQL"],
+      media: { type: "youtube", url: "https://www.youtube.com/watch?v=gL4eTbVvr9E" },
+    },
+
+    {
+      title: "ArquivosGED",
+      link:"https://ged.arquivosdoc.com.br/login",
+      company: "Arquivos Doc",
+      period: "jan 2022 - jan 2023",
+      description:
+        "Sistema de gestão de documentos eletrônicos com funcionalidades de busca e organização.",
+      skills: ["Symfony", "API REST", "Amazon S3", "MySQL", "Metodologias ágeis"],
+      media: { type: "youtube", url: "https://www.youtube.com/watch?v=NNrWZmjcixE" },
+    },
+    {
+      title: "ScanBox",
+      link:"",
+      company: "Arquivos Doc",
+      period: "jan 2024 - mai 2024",
+      description:
+        "Cadastro automatizado de caixas com OCR e leitura de QR Code, integrando físico e digital.",
+      skills: ["Python", "OpenCV", "Tkinter", "Tesseract", "Metodologias ágeis","MySql"],
+      media: { type: "youtube", url: "https://www.youtube.com/watch?v=VddBNJEJ-II" },
+    },
+    {
+      title: "Freelance FrontEnd",
+      link:"https://tropa-digital-mzkq.vercel.app/",
+      company: "Tropa Digital",
+      period: "jul 2025",
+      description:
+        "Página de login e painel administrativo, desenvolvida com foco em performance, organização e atenção aos detalhes de layout e responsividade.",
+      skills: ["Node","React", "Vite", "TailwindCSS", "Metodologias ágeis", "Figma"],
+      media: { type: "youtube", url: "https://www.youtube.com/watch?v=5YvUCG_losU" },
+
+    },
+    {
     title: "Sistema de Elaboração Legislativa",
     link:"https://camposdojordao.arquivosdoc.com.br/",
     company: "Arquivos Doc",
@@ -66,26 +98,6 @@ const projects = [
       "Controle físico e digital de documentos e caixas com QR Code, facilitando busca e rastreabilidade.",
     skills: ["API REST", "Twig", "JavaScript", "Symfony", "Amazon S3", "Metodologias ágeis","MySql"],
     media: { type: "image", url: "/log.png" },
-  },
-  {
-    title: "ScanBox",
-    link:"",
-    company: "Arquivos Doc",
-    period: "jan 2024 - mai 2024",
-    description:
-      "Cadastro automatizado de caixas com OCR e leitura de QR Code, integrando físico e digital.",
-    skills: ["Python", "OpenCV", "Tkinter", "Tesseract", "Metodologias ágeis","MySql"],
-    media: { type: "youtube", url: "https://www.youtube.com/watch?v=VddBNJEJ-II" },
-  },
-  {
-    title: "IndexDoc",
-    link:"https://index.arquivosdoc.com.br/login",
-    company: "PUC Minas",
-    period: "ago 2023 - dez 2023",
-    description:
-      "Plataforma de automação documental para otimizar digitalização e Assinatura Digital ICP-Brasil de arquivos.",
-    skills: ["API REST", "CSS", "Twig", "JavaScript", "Symfony", "Amazon S3", "MySQL"],
-    media: { type: "youtube", url: "https://www.youtube.com/watch?v=gL4eTbVvr9E" },
   },
   {
     title: "ProdutiveDoc",
@@ -108,16 +120,7 @@ const projects = [
     media: { type: "image", url: "/app.png" },
   },
 
-  {
-    title: "ArquivosGED",
-    link:"https://ged.arquivosdoc.com.br/login",
-    company: "Arquivos Doc",
-    period: "jan 2022 - jan 2023",
-    description:
-      "Sistema de gestão de documentos eletrônicos com funcionalidades de busca e organização.",
-    skills: ["Symfony", "API REST", "Amazon S3", "React", "Metodologias ágeis"],
-    media: { type: "youtube", url: "https://www.youtube.com/watch?v=lpgBrwGmDR8" },
-  },
+
 ];
 
 export default function App() {
